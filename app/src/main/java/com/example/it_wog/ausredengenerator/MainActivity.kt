@@ -27,7 +27,11 @@ class MainActivity : AppCompatActivity() {
             val randomIntegerVier = (0..vier.size-1).shuffled().first()
 
             //Bringing the random text on the screen
-            textView.text = eins[randomIntegerEins] + " " + zwei[randomIntegerZwei] + " " + drei[randomIntegerDrei] + " " + vier[randomIntegerVier]
+            /*textView.text = eins[randomIntegerEins].toString() + " " + zwei[randomIntegerZwei].toString() +
+                    " " + drei[randomIntegerDrei].toString() + " " + vier[randomIntegerVier].toString()
+            */
+            textView.setText(eins[randomIntegerEins].toString() + " " + zwei[randomIntegerZwei].toString() +
+                    " " + drei[randomIntegerDrei].toString() + " " + vier[randomIntegerVier].toString())
 
         }
 
