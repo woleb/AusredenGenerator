@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             /*textView.setText(eins[randomIntegerEins].toString() + " " + zwei[randomIntegerZwei].toString() +
                     " " + drei[randomIntegerDrei].toString() + " " + vier[randomIntegerVier].toString())
             */
-            //Best solution 
+            //Best solution
             textView.setText("Es liegt an ${eins[randomIntegerEins]} ${zwei[randomIntegerZwei]}" +
                     " im ${drei[randomIntegerDrei]} ${vier[randomIntegerVier]}")
         }
